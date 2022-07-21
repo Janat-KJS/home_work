@@ -1,10 +1,10 @@
 import React from "react";
-import {blog} from "../constants";
+import {blogPop} from "../constants";
 
 const BlogEntries = () => {
 
-    const blogArray =
-        blog.map(item => (
+    const blogPopArray =
+        blogPop.map(item => (
                 <div className="w3-card-4 w3-margin w3-white">
                     <img src={item.img} alt="Nature" style={{width: '100%'}}/>
                     <div className="w3-container">
@@ -31,7 +31,7 @@ const BlogEntries = () => {
 
     return (
         <div className="w3-col l8 s12">
-            {blogArray}
+            {blogPopArray}
         </div>
     );
 }

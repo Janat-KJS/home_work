@@ -1,10 +1,9 @@
 import React from "react";
-import {posts} from "../constants";
+import {postsPop} from "../constants";
 
 const PopularPosts = () => {
 
-    const postsArray =
-        posts.map(item => (
+    const postsPopArray = postsPop.map(item => (
                 <li className="w3-padding-16">
                     <img src={item.img} alt="Image" className="w3-left w3-margin-right"
                          style={{width: 50}}/>
@@ -21,7 +20,7 @@ const PopularPosts = () => {
                     <h4>Popular Posts</h4>
                 </div>
                 <ul className="w3-ul w3-hoverable w3-white">
-                    {postsArray}
+                    {postsPopArray}
                 </ul>
             </div>
             <hr/>
