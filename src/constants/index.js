@@ -1,0 +1,1 @@
+export const tags = ['Travel', 'New York', 'NORWAY', 'London', 'IKEA', 'DIY', 'Ideas', 'FAMALY',];
